@@ -3,10 +3,6 @@ import re
 from functions import extract_text_from_pdf,split_text_by_heading,summarize_chapters_replicate
 from docx import Document
 os.environ["REPLICATE_API_TOKEN"] = "r8_OYXuIDs1GE9zPtbVFXmdw1KCkXaNTq64QOeAG"
-
-
-
-
 def save_text_to_file(text, output_path):
     # Ensure the directory exists
     output_dir = os.path.dirname(output_path)
