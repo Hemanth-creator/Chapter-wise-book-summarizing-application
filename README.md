@@ -1,4 +1,4 @@
-# Chapter-wise-book-summarizing-application
+# Chapter wise book summarizing application
 
 ## Overview
 This repository provides a suite of tools for extracting, processing, and summarizing text from PDF documents. The primary features include:
